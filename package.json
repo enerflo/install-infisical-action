@@ -1,0 +1,12 @@
+{
+  "name": "@enerflo/install-infisical-action",
+  "description": "Github Action to install the Infisical CLI in the runner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/exec": "^1.1.1"
+  }
+}

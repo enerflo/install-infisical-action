@@ -1,0 +1,10 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  method:
+    description: 'Installation method, one of [ubuntu, npm]'
+    required: true
+    default: 'npm'
+runs:
+  using: 'node20'
+  main: 'index.js'
