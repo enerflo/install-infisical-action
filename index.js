@@ -18,7 +18,7 @@ async function install() {
 }
 
 async function install_npm(version) {
-  const command = "npm install -g @infisical/cli";
+  let command = "npm install -g @infisical/cli";
   if (version) {
     command += `@${version}`;
   }
