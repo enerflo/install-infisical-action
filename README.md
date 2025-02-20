@@ -20,19 +20,20 @@ The `method` input is required, but has a default value.
 | `ubuntu` | Install through `apt` on Ubuntu Linux | Ubuntu-based runner |
 
 ## Usage
+Note that the `@v1` at the end of the `uses` line should reference the latest [release tag](https://github.com/enerflo/install-infisical-action/tags) for this repository.
 
 For a Node.js project:
 
 ```yaml
 - name: Install Infisical CLI
-  uses: enerflo/install-infisical-action
+  uses: enerflo/install-infisical-action@v1
 ```
 
 Install a specific version of the Infisical CLI:
 
 ```yaml
 - name: Install Infisical CLI
-  uses: enerflo/install-infisical-action
+  uses: enerflo/install-infisical-action@v1
   with:
     version: "0.34.2"
 ```
@@ -41,7 +42,7 @@ Install in an Ubuntu runner:
 
 ```yaml
 - name: Install Infisical CLI
-  uses: enerflo/install-infisical-action
+  uses: enerflo/install-infisical-action@v1
   with:
     method: ubuntu
 ```
