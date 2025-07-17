@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Install Infisical'
+description: 'Install the Infisical CLI application using one of multiple possible installation methods'
 inputs:
   method:
     description: 'Installation method, one of [ubuntu, npm]'
